@@ -1,0 +1,30 @@
+# Ignore CSV and JSON files
+*.csv
+*.json
+
+# Ignore Python virtual environments
+venv/
+.venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore cache files
+*.cache
+.cache/
+
+# Ignore log files
+*.log
+
+# Ignore IDE specific files (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
